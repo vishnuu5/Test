@@ -1,0 +1,11 @@
+/* styles/Card.css */
+.Card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    background-color: #a4d464;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    border-radius: 8px;
+  }
+  

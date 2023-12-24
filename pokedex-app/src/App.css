@@ -1,0 +1,62 @@
+/* styles/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* styles/PokemonCard.css */
+.PokemonCard {
+  border: 10px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  
+
+}
+
+.PokemonCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* styles/PokemonDetailModal.css */
+.PokemonDetailModal {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.PokemonDetailModal img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* styles/PokemonList.css */
+.PokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.PokemonList button {
+  margin: 10px;
+  padding: 8px 16px;
+}
+
+/* styles/SearchBar.css */
+.SearchBar {
+  margin-bottom: 20px;
+}
+
+/* styles/TypeFilter.css */
+.TypeFilter {
+  margin-bottom: 20px;
+}
